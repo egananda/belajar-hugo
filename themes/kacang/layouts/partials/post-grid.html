@@ -1,0 +1,14 @@
+<div class="post-grid">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        <ul>
+            {{ range .Site.RegularPages }}
+            <li>
+                <a href="{{.Permalink}}"> {{.Title}}</a>
+                <br>
+                <span> {{.Date.Format "2006-01-02"}} </span>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>

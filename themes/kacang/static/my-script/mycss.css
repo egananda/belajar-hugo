@@ -1,0 +1,58 @@
+/* universal */
+
+@font-face {
+    font-family: "base-font";
+    src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+
+
+body {
+    font-family: "base-font";
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* jumbotron */
+
+
+
+
+
+
+
+
+/* post grid */
+.post-grid {
+    margin: 20px 0;
+}
+
+
+.post-grid li {
+    margin: 15px 0;
+}
+
+
+.post-grid ul li {
+    list-style: none;
+}
+
+
+.post-grid a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+
+.post-grid a:hover {
+    color: rgb(25, 226, 142);
+}
+
+
+.post-grid span {
+    font-size: 0.8em;
+}
