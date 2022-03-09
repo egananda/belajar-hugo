@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'idfoss'
 
 theme = "kacang"
+
+[permalinks]
+artikel = ":slug"
