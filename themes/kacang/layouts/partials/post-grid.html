@@ -1,7 +1,10 @@
 <div class="post-grid">
     <div class="container">
-        <h1>{{ .Title }}</h1>
-        <ul>
+        <h4 class="display-4 mt-5">
+            Artikel Terbaru
+        </h4>
+        <p class="lead">Apa aja sih yang baru di IDFOSS?</p>
+        <ul class="mt-5 py-5">
             {{ range .Site.RegularPages }}
             <li>
                 <a href="{{.Permalink}}"> {{.Title}}</a>
