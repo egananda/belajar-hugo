@@ -2,6 +2,9 @@
 title: "Perbedaan Apt vs Apt Get"
 date: 2022-03-09T01:50:40+07:00
 draft: false
+
+author: "EGA NANDA B"
+avatar: "/assets/img/87672592.jpeg"
 ---
 
 ## apt vs apt-get, apa bedanya?

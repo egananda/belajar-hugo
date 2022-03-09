@@ -2,6 +2,9 @@
 title: "Penjelasan Tentang dpkg Di Linux"
 date: 2022-03-09T02:04:09+07:00
 draft: false
+
+author: "EGA NANDA B"
+avatar: "/assets/img/87672592.jpeg"
 ---
 
 ## Apa itu dpkg? 

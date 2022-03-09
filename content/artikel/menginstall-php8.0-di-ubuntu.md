@@ -2,6 +2,9 @@
 title: "Menginstall Php8.0 Di Ubuntu"
 date: 2022-03-09T01:58:18+07:00
 draft: false
+
+author: "EGA NANDA B"
+avatar: "/assets/img/87672592.jpeg"
 ---
 
 ## Tutorial Menginstall Php8.0 Di Linux Ubuntu

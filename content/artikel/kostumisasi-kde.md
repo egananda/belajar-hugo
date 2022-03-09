@@ -2,6 +2,9 @@
 title: "Kostumisasi Kde"
 date: 2022-03-09T02:00:21+07:00
 draft: false
+
+author: "EGA NANDA B"
+avatar: "/assets/img/87672592.jpeg"
 ---
 
 ## Tutorial kostumisasi kde linux

@@ -2,6 +2,14 @@
 title: "Cara Mengganti Boot Logo Di Linux"
 date: 2022-03-09T02:03:07+07:00
 draft: false
+
+author: "EGA NANDA B"
+avatar: "/assets/img/87672592.jpeg"
+
+categories:
+- Linux
+- Ubuntu
+- Tutorial
 ---
 
 ## Tutorial cara mengganti boot logo di semua linux

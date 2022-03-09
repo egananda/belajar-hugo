@@ -66,3 +66,9 @@ body {
 .post-grid span {
     font-size: 0.8em;
 }
+
+
+.penulis img {
+    width: 50px;
+    border-radius: 50%;
+}
