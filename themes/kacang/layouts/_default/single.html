@@ -16,10 +16,10 @@
             <img src="{{ .Params.avatar }}" alt="">
             <span class="name-author py-3">{{ .Params.Author }} •</span>
             <span class="date"> {{.Date | time.Format ":date_medium"}} </span>
+            <div class="content py-5">
+                {{ .Content }}
+            </div>
         </div>
-    </div>
-
-    {{ .Content }}
     </div>
 
     {{ partial "footer.html" . }}
