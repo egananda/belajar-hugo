@@ -1,19 +1,23 @@
-/* universal */
 @font-face {
-    font-family: "Nunito";
-    src: url(/assets/fonts/Nunito/Nunito-Regular.ttf);
+    font-family: "Poppins";
+    src: url(/assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
 
 @font-face {
-    font-family: "Nunito-Bold";
-    src: url(/assets/fonts/Nunito/Nunito-Bold.ttf);
+    font-family: "Poppins-Medium";
+    src: url(/assets/fonts/Poppins/Poppins-Medium.ttf);
 }
+
+
+
+
+
 
 
 body {
-    font-family: "Nunito";
     font-size: 18px;
+    font-family: "Poppins";
 
 }
 
@@ -21,54 +25,63 @@ body {
 
 
 /* navbar */
+
+
 .navbar .nav-link {
-    font-family: "Nunito-Bold";
+    font-family: "Poppins-Medium";
     text-transform: uppercase;
     font-size: 0.8em;
+    color: #fff;
 }
 
 
 
 
 
+/* list artikel */
+.list-artikel {
+    border: none;
+    transition: 0.3s;
+}
 
-
-
-
-
-/* post grid */
-.post-grid {
-    margin: 20px 0;
+.list-artikel:hover {
+    transform: scale(1.01);
 }
 
 
-.post-grid li {
-    margin: 15px 0;
+.list-artikel a {
+    text-decoration: none;
+    color: #333;
 }
 
 
-.post-grid ul li {
+.list-artikel span {
+    font-size: 15px;
+}
+
+
+/* aside */
+aside ul li {
     list-style: none;
 }
 
 
-.post-grid a {
+aside a {
     text-decoration: none;
-    color: rgb(70, 70, 70);
+    color: #333;
 }
 
 
-.post-grid a:hover {
-    color: rgb(25, 226, 142);
-}
 
 
-.post-grid span {
-    font-size: 0.8em;
-}
 
 
-.penulis img {
+/* author */
+.author img {
     width: 50px;
     border-radius: 50%;
+}
+
+.author span {
+    font-size: 15px;
 }

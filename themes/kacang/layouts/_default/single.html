@@ -11,16 +11,14 @@
 
 
     <div class="container my-3 py-5">
+
+        <div class="author mb-3">
+            <img src="{{ .Params.avatar }}" alt="">
+            <span class="py-3">{{ .Params.Author }}</span>
+        </div>
+
         {{ .Content }}
-
-
         <div class="penulis d-flex align-items-center">
-            <div class="author-image p-2">
-                <img class="img-circle" src="{{.Params.avatar }}">
-            </div>
-            <div class="author-name">
-                <span style="font-size: 13px">Ditulis oleh : {{ .Params.Author }}</span>
-            </div>
         </div>
     </div>
 

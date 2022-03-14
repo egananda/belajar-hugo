@@ -1,17 +1,11 @@
-<div class="post-grid">
-    <div class="container">
-        <h4 class="display-4 mt-5">
-            Artikel Terbaru
-        </h4>
-        <p class="lead">Apa aja sih yang baru di IDFOSS?</p>
-        <ul class="mt-5 py-5">
-            {{ range .Site.RegularPages }}
-            <li>
-                <a href="{{.Permalink}}"> {{.Title}}</a>
-                <br>
-                <span> {{.Date.Format "2006-01-02"}} </span>
-            </li>
-            {{ end }}
-        </ul>
+{{ range .Site.RegularPages }}
+<div class="container">
+    <div class=" card list-artikel my-2 shadow-sm p-2">
+        <div class="card-body">
+            <a href="{{.Permalink}}"> {{.Title}}</a>
+            <br>
+            <span> {{.Date | time.Format ":date_medium"}} </span>
+        </div>
     </div>
 </div>
+{{ end }}
