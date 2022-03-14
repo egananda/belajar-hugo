@@ -14,12 +14,12 @@
 
         <div class="author mb-3">
             <img src="{{ .Params.avatar }}" alt="">
-            <span class="py-3">{{ .Params.Author }}</span>
+            <span class="name-author py-3">{{ .Params.Author }} •</span>
+            <span class="date"> {{.Date | time.Format ":date_medium"}} </span>
         </div>
+    </div>
 
-        {{ .Content }}
-        <div class="penulis d-flex align-items-center">
-        </div>
+    {{ .Content }}
     </div>
 
     {{ partial "footer.html" . }}
